@@ -1,0 +1,30 @@
+/* --------------google font------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@400;500;600;700;800&display=swap');
+/* ------------------utilities design--------------- */
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.text-color{
+	color: #494a4a;
+}
+.carousel-item img{
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)),url(/images/cover/cover-1.png);
+}
+
+.carousel-item img{
+	width: 100%;
+	height: 100%;
+}
+.carousel-item::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #000000;
+	opacity: 0.6;
+}
