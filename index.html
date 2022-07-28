@@ -292,7 +292,37 @@
 					<p class="text-white text-justify">you join with us for your betterment. this course will success key for you.</p>
 				</div>
 				<div class="text-center">
-					<button class="btn bg-white text-primary fw-bold">Register Now</button>
+					<!-- Button trigger modal -->
+						<button type="button" class="btn bg-white text-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							Register Now
+						</button>
+						
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title text-color" id="exampleModalLabel">Programming Hero</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body text-color">
+									<form action="">
+										<div class="mb-3">
+											<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email ID">
+										  </div>
+										  <div class="mb-3">
+											<input type="password" class="form-control" id="exampleFormControlPassword" placeholder="password">
+										  </div>
+									</form>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+								</div>
+							</div>
+							</div>
+						</div>
+
 				</div>
 			</div>
 
@@ -361,3 +391,5 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
